@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>DBMS PROJECT</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  
+  
+</head>
+<body>
+      <h2>UNIVERSITY CLUBS, FORUMS & SOCIETIES</h2>
+      <h5>co-curricular activities of different Universities in Bangladesh</h5> 
+
+
+      <div id="menu">
+      	<ul>
+      	      <li><a href="#">Home</a> </li>
+      	      <li><a href="#">University</a>
+      	          <ul>
+      	          	<li><a href="publicuni.html">Public University</a></li>
+      	          	<li><a href="privateuni.html">Private University</a></li>
+      	          </ul>
+
+      	      </li>
+      	      <li><a href="#">Categories</a>
+      	         <ul>
+      	            <li><a href="athletics.php">Athletics</a></li>
+      	            <li><a href="business.php">Business</a></li>
+      	            <li><a href="cultural.php">Cultural</a></li>
+      	            <li><a href="env.php">Environmental</a></li>
+      	         	<li><a href="science.php">Science & Technology</a></li>
+                    <li><a href="social.php">Social</a></li>
+      	         	
+      	         	
+      	         </ul>
+
+      	      </li>
+      	      <li><a href="home_about_us.html">About Us</a></li>
+      	      <li><a href="admin_login.php">Admin Login</a></li>
+      	      
+      	     
+      		
+      	</ul>
+      </div>
+    <!--Search button code-->
+      <div id="search">
+      	<form>
+         <input type="text" name="search" placeholder="Search......">
+        </div>
+
+
+    <!--Image Slider using Javascript -->
+  <div>  
+  <img class="mySlides" src="photo1.jpg" style="width:100%">
+  <img class="mySlides" src="photo2.jpg" style="width:100%">
+  <img class="mySlides" src="du03.jpg" style="width:100%">
+  <img class="mySlides" src="photo3.jpg" style="width:100%">
+  <img class="mySlides" src="photo4.jpg" style="width:100%">
+  <img class="mySlides" src="photo5.jpg" style="width:100%">
+  <img class="mySlides" src="photo6.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!--footer starts here-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"><a href="#">Contact Us</a></div>
+       
+        <p><i class="fa fa-map-pin"></i> C-Block, Basundhara R/A, Baridhara, Dhaka</p>
+        <p><i class="fa fa-phone"></i> +8801790074323 </p>
+         <p><i class="fa fa-phone"></i> +8801836851185 </p>
+          <p><i class="fa fa-phone"></i> +8801981849332 </p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@clubbangladesh.com</p>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">Developed by</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Sadman Kabir Soumik</a></li>
+          <li><a href="#"> Mostafa Didar Mahdi</a></li>
+          <li><a href="#"> Shagufa Alam Shupti</a></li>
+          <li><a href="#"> S.M. Abdul Ahad</a></li>
+          
+         
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+          <p> Bit Arena v2 at NSU, organized by NSUCEC<span>August 17,2017</span></p>
+          <p> BRACU Robotics club launches country's first nanosatellite<span>August 16,2017</span></p>
+          <p> Career grooming session by BUET Career Club<span>August 15,2017</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+          <h6 class="heading7">Connect</h6>
+            <blockquote cite="https://www.facebook.com"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+            <blockquote cite="https://www.twitter.com"><a href="https://www.facebook.com/twitter">Twitter</a></blockquote>
+            <blockquote cite="https://www.instagram.com"><a href="https://www.facebook.com/instagram">Instagram</a></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights with Hakuna maData</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Blog</a></li>
+        
+        <li><a href="#">Contact with site developers</a></li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--footer ends here-->
+
+ 
+
+
+</body>
+</html>
